@@ -1,0 +1,26 @@
+//
+// Zinc Core Base
+// > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~ > ~
+
+////
+/// @author John Cheesman
+/// @group Core
+////
+
+/// Base font size in pixels
+///
+/// @type length
+
+$baseline-px: 16px !default;
+
+/// Base line height
+///
+/// @type number
+
+$base-line-height: 1.5 !default;
+
+/// Base sizing-unit
+///
+/// @type length
+
+$base-sizing: ($baseline-px * $base-line-height) !default;
